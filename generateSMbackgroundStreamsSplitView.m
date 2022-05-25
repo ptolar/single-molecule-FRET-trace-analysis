@@ -13,7 +13,7 @@ basename = 'IgM 526 stream';
 fileNum = 1:10; 
 
 % specify acceptor and donor excitation frames within strea
-dframes = 2:301;
+dframes = 2:26;
 aframes = 1;
 
 % pixel size of split-image field of view (half of the chip)
