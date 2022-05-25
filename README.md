@@ -23,5 +23,6 @@ Edit set up information in processSMstreamsSplitView.m
 Run processSMstreamsSplitView.m
 
 
-Short sample image streams are provided along with the corresponding alignment image.
+Short sample image streams (1 acceptor image, 25 donor/FRET images) are provided along with the corresponding alignment image.
 The alignment tform is also included so the alignment step can be skipped for the sample images.
+Sample background images (abckg, dbckg, fbckg) are also provided as Matlab variables, which are generated from a large number of images in the experiment, and can be used with the sample images.
