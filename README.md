@@ -23,4 +23,5 @@ edit set up information in processSMstreamsSplitView.m
 run processSMstreamsSplitView.m
 
 
-Short sample image streams are provided along with the corresponding alignment tform.
+Short sample image streams are provided along with the corresponding alignment image.
+The alignment tform is also included so the alignment step can be skipped for the sample images.
