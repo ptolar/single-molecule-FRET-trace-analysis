@@ -1,14 +1,17 @@
 # single-molecule-FRET-trace-analysis
 Matlab scripts to analyze single molecule FRET image streams
 
-Requires an optional set up of Mij for communication of Matlab with ImageJ to display images, e.g. using Fiji.
-Images should be multi-frame tiff files coming from an image splitter.
+Setup:
+Requires Matlab with Image Processing Toolbox
+Requires an optional set up of Mij (http://bigwww.epfl.ch/sage/soft/mij/) for communication of Matlab with ImageJ to display images, this can be achieved e.g. using Fiji.
+Images should be multi-frame tiff files coming from an image splitter (e.g. with the left half of the chip the donor and the left half the acceptor wavelenght)
 Images should be named with a base name followed by a number e.g. imagestream1.tif, imagestream2.tif etc
 
+Usage:
 1. Set up image splitting and alignment
-Use an image containing multispectral beads to set up alignment between donor and acceptor channels coming from an image splitter
+Use an image containing multispectral beads to set up alignment between donor and acceptor channels coming from an image splitter.
 run find_alignment.m
-click on corresponding beads then close the window. Keep the tform variable in the workspase
+click on corresponding beads then close the window. Keep the tform variable in the workspase.
 
 2. Calculate background
 Edit set up information in generateSMbackgroundStreamsSplitView.m
@@ -18,3 +21,6 @@ keep background images dbckg, fbckg, abckg in the workspace
 3. Analyse image streams
 edit set up information in processSMstreamsSplitView.m
 run processSMstreamsSplitView.m
+
+
+Short sample image streams are provided along with the corresponding alignment tform.
