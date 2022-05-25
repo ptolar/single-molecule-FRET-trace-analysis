@@ -10,17 +10,17 @@ Images should be named with a base name followed by a number e.g. imagestream1.t
 Usage:
 1. Set up image splitting and alignment
 Use an image containing multispectral beads to set up alignment between donor and acceptor channels coming from an image splitter.
-run find_alignment.m
-click on corresponding beads then close the window. Keep the tform variable in the workspase.
+Run find_alignment.m
+Click on corresponding beads then close the window. Keep the tform variable in the workspase.
 
 2. Calculate background
 Edit set up information in generateSMbackgroundStreamsSplitView.m
-run generateSMbackgroundStreamsSplitView.m
-keep background images dbckg, fbckg, abckg in the workspace
+Run generateSMbackgroundStreamsSplitView.m
+Keep background images dbckg, fbckg, abckg in the workspace
 
 3. Analyse image streams
-edit set up information in processSMstreamsSplitView.m
-run processSMstreamsSplitView.m
+Edit set up information in processSMstreamsSplitView.m
+Run processSMstreamsSplitView.m
 
 
 Short sample image streams are provided along with the corresponding alignment image.
