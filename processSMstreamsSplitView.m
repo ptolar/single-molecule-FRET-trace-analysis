@@ -25,7 +25,7 @@ savingPath = '/Users/ptolar/Documents/Large Data/Raj/IgM 526 on IgM/';
 saveData = 0;
 
 % specify acceptor and donor excitation frames within stream
-dframes = 2:301;
+dframes = 2:26;
 aframes = 1;
 
 % thresholds for spot detection in donor and acceptor excitation channels
